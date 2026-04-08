@@ -1,4 +1,4 @@
-# HotelratingSystem
+# Hotel-Rating-System
 A scalable Hotel Rating System built using Java, Spring Boot, and Microservices architecture. This project demonstrates real-world backend development concepts including service decomposition, inter-service communication, and RESTful API design.
 
 🚀 Features
