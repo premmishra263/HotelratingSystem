@@ -1,62 +1,76 @@
 # Hotel-Rating-System
 A scalable Hotel Rating System built using Java, Spring Boot, and Microservices architecture. This project demonstrates real-world backend development concepts including service decomposition, inter-service communication, and RESTful API design.
 
-🚀 Features
-🧑 User Service – Manage user data
-🏨 Hotel Service – Manage hotel information
-⭐ Rating Service – Add and fetch hotel ratings
-🔗 Service Communication using REST APIs
-📦 Microservices-based architecture
-⚡ Scalable and loosely coupled design
+## 🚀 Features
 
-🛠️ Tech Stack
-Backend: Java, Spring Boot
-Architecture: Microservices
-Database: MySQL, PostgreSQL, MongoDB
-Build Tool: Maven
-Communication: REST APIs
-Tools: Swagger,Postman, Docker
+- 👨 User Service – Manage user data  
+- 🏨 Hotel Service – Manage hotel information  
+- ⭐ Rating Service – Add and fetch hotel ratings  
+- 🔗 Service Communication using REST APIs  
+- 📦 Microservices-based architecture  
+- ⚡ Scalable and loosely coupled design  
 
+## 🛠 Tech Stack
 
-🧩 Microservices Overview
-1. User Service
-Create and manage users
-Fetch user details
-Aggregate user ratings from Rating Service
-2. Hotel Service
-Manage hotel data
-Retrieve hotel details
-3. Rating Service
-Add ratings for hotels
-Fetch ratings by user or hotel
+- **Backend:** Java, Spring Boot  
+- **Architecture:** Microservices  
+- **Database:** MySQL, PostgreSQL, MongoDB  
+- **Build Tool:** Maven  
+- **Communication:** REST APIs  
+- **Tools:** Swagger, Postman, Docker  
 
 
-🔄 API Flow (Example)
-User requests details
-User Service calls Rating Service
-Rating Service returns ratings
-User Service calls Hotel Service
-Final aggregated response returned
+## 🧩 Microservices Overview
+### 1. User Service
+- Create and manage users  
+- Fetch user details  
+- Aggregate user ratings
+  
+### 2. Hotel Service
+- Manage hotel data  
+- Retrieve hotel details
+  
+### 3. Rating Service
+- Add ratings for hotels  
+- Fetch ratings by user or hotel  
 
-📂 Project Structure
-hotel-rating-system/
-│
+
+## 🔄 API Flow 
+
+1. User requests details  
+2. User Service calls Rating Service  
+3. Rating Service returns ratings  
+4. User Service calls Hotel Service  
+5. Final aggregated response returned
+
+   
+
+## 📁 Project Structure
+
+### hotel-rating-system
+
+```
 ├── user-service/
 ├── hotel-service/
 ├── rating-service/
 └── service-registry/
+```
 
+## 🚀 Microservices Design Patterns
 
-Microservices design patterns
-REST API best practices
-Service-to-service communication
-Real-world backend architecture
+* REST API best practices
+* Service-to-service communication
+* Real-world backend architecture
 
+## 👨‍💻 Author
 
-👨‍💻 Author
-Prem Kumar
-Java Backend Developer (Spring Boot | Microservices)
+* Prem Kumar – Java Backend Developer (Spring Boot | Microservices)
 
-⭐ Contribute
+## ⭐ Contribute
 
-Feel free to fork, raise issues, or submit PRs!
+* Feel free to fork
+* Rise issues
+* Or submit pull requests.
+
+## Note - it is still in development. 
+
